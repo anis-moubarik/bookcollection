@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
-import {Subject, Observable} from 'rxjs';
-import {HttpClient, HttpParams} from '@angular/common/http';
-import {Book} from '../models/book';
+import { Subject, Observable } from 'rxjs';
+import { HttpClient, HttpParams } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -25,7 +24,7 @@ export class BookService {
     return this.httpClient.get(this.baseUrl, {params: queryParams});
   }
 
-  public saveBook(values: Object) {
+  public saveBook(values: object) {
     return this.httpClient.post(this.baseUrl, values);
   }
 

@@ -28,9 +28,9 @@ export class BookFormComponent{
     });
   }
 
-  get title() { return this.bookForm.get('title') };
+  get title() { return this.bookForm.get('title'); }
 
-  get author() { return this.bookForm.get('author') };
+  get author() { return this.bookForm.get('author'); }
 
   onSubmit() {
     this.bookService.saveBook(this.bookForm.value).subscribe({
@@ -40,7 +40,7 @@ export class BookFormComponent{
         //Add timeout to close status message
         setTimeout(() => {
           this.successAlert?.close();
-          this.success = "";
+          this.success = '';
         }, 2500);
       },
       error: (err) => {

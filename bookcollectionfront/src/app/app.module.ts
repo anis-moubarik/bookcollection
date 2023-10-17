@@ -12,7 +12,7 @@ import { DatePipe } from '@angular/common';
 import { ScrollingModule as ScrollingModuleExperimental } from '@angular/cdk-experimental/scrolling';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { BookFormComponent } from './book-form/book-form.component';
-import {ReactiveFormsModule} from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [

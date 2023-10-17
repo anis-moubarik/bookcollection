@@ -2,10 +2,11 @@ import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { BooksRootComponent } from './books-root/books-root.component';
 import { By } from '@angular/platform-browser';
-import {BookFormComponent} from './book-form/book-form.component';
-import {BookListComponent} from './book-list/book-list.component';
-import {HttpClient, HttpHandler} from '@angular/common/http';
-import {ScrollingModule} from '@angular/cdk/scrolling';
+import { BookFormComponent } from './book-form/book-form.component';
+import { BookListComponent } from './book-list/book-list.component';
+import { HttpClient, HttpHandler } from '@angular/common/http';
+import { ScrollingModule } from '@angular/cdk/scrolling';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 let fixture: ComponentFixture<AppComponent>;
@@ -17,7 +18,7 @@ describe('AppComponent', () => {
       BookFormComponent,
       BookListComponent
     ],
-    imports: [ScrollingModule],
+    imports: [ScrollingModule, ReactiveFormsModule],
     providers: [{provide: HttpClient}, {provide: HttpHandler}]
   })));
 

@@ -1,8 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BookListComponent } from './book-list.component';
-import {HttpClientTestingModule} from '@angular/common/http/testing';
-import {CdkVirtualScrollViewport, ScrollingModule} from '@angular/cdk/scrolling';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 describe('BookListComponent', () => {
   let component: BookListComponent;

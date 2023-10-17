@@ -1,8 +1,7 @@
-import {Component, OnInit, ViewChild} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Book } from '../models/book';
 import { BookService } from '../services/book.service';
-import {catchError, Subscription} from 'rxjs';
-import {CdkVirtualScrollViewport} from '@angular/cdk/scrolling';
+import { catchError, Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-book-list',

@@ -1,12 +1,11 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BooksRootComponent } from './books-root.component';
-import {RouterOutlet} from '@angular/router';
-import {BookFormComponent} from '../book-form/book-form.component';
-import {BookListComponent} from '../book-list/book-list.component';
-import {HttpClient, HttpHandler} from '@angular/common/http';
-import {BookService} from '../services/book.service';
-import {ScrollingModule} from '@angular/cdk/scrolling';
+import { BookFormComponent } from '../book-form/book-form.component';
+import { BookListComponent } from '../book-list/book-list.component';
+import { HttpClient, HttpHandler } from '@angular/common/http';
+import { ScrollingModule } from '@angular/cdk/scrolling';
+import { ReactiveFormsModule } from '@angular/forms';
 
 describe('BookRootComponent', () => {
   let component: BooksRootComponent;
@@ -20,7 +19,7 @@ describe('BookRootComponent', () => {
         BookFormComponent,
         BookListComponent
       ],
-      imports: [ScrollingModule],
+      imports: [ScrollingModule, ReactiveFormsModule],
       providers: [{provide: HttpClient}, {provide: HttpHandler}]
     });
     fixture = TestBed.createComponent(BooksRootComponent);

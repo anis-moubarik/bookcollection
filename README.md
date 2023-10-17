@@ -14,6 +14,8 @@ Shutting down containers
 
 `docker-compose down`
 
+The frontend will run at http://localhost:4200 and backend at localhost:3000
+
 ### Frontend tests
 run
 

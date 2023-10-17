@@ -1,0 +1,22 @@
+<div id="bookscontainer">
+<h1>Books</h1>
+<div>
+  <ngb-alert *ngIf="error" [animation]="true"  [dismissible]="true" type='danger'>
+    <strong>Server returned an error: {{error}}</strong>
+  </ngb-alert>
+  <cdk-virtual-scroll-viewport (scrolledIndexChange)="scrollIndexEnd($event)" id="infinitescroll" itemSize="170">
+    <div *cdkVirtualFor="let book of books; let index = index;" class="card">
+      <h5 class="card-header">{{index+1}}. {{book.title}}</h5>
+      <div class="card-body">
+        <p *ngIf="book.author" class="card-text"><strong>Author: </strong>{{book.author}}</p>
+        <p class="card-text"><strong>Date Added: </strong>{{book.timestamp | date}}</p>
+      </div>
+    </div>
+  </cdk-virtual-scroll-viewport>
+</div>
+<div *ngIf="isLoading" id="spinner" class="d-flex justify-content-center">
+  <div class="spinner-border" role="status">
+  </div>
+  <span>Loading...</span>
+</div>
+</div>

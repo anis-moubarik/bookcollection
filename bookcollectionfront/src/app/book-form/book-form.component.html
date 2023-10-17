@@ -1,0 +1,35 @@
+<div id="bookformcontainer">
+  <h1>Add Books</h1>
+  <div class="card">
+    <div class="card-header">
+      Add Book
+    </div>
+    <div class="card-body">
+      <ngb-alert *ngIf="error" [animation]="true"  [dismissible]="true" type='danger'>
+        <strong>Server returned an error: {{error}}</strong>
+      </ngb-alert>
+      <ngb-alert #successAlert *ngIf="success" [animation]="false"  [dismissible]="false" type='success'>
+        <strong>{{success.messages}}</strong>
+      </ngb-alert>
+      <form [formGroup]="bookForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="title">Title: </label>
+          <input id="title" class="form-control" type="text" formControlName="title">
+          <div *ngIf="title?.invalid && (title?.touched || title?.dirty)" class="alert alert-danger" role="alert">
+            <div *ngIf="title?.errors?.['required']">
+              Title is required.
+            </div>
+          </div>
+          <label for="author">Author: </label>
+          <input id="author" class="form-control" type="text" formControlName="author">
+          <div *ngIf="author?.invalid && (author?.touched || author?.dirty)" class="alert alert-danger" role="alert">
+            <div *ngIf="author?.errors?.['required']">
+              Author is required.
+            </div>
+          </div>
+          <button type="submit" [disabled]="!bookForm.valid" class="btn-primary btn mt-1">Add</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

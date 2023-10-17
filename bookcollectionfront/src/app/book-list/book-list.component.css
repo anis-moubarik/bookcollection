@@ -1,0 +1,16 @@
+#infinitescroll {
+  height: 92vh;
+}
+
+.card {
+  margin-bottom: 15px;
+}
+
+#spinner {
+  position: relative;
+  bottom: 20px;
+}
+
+#bookscontainer {
+  width: 100%;
+}

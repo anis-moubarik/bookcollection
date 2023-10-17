@@ -1,0 +1,440 @@
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:29:59.010Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:29:59.018Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:30:20.112Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:30:20.118Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 20","timestamp":"2023-10-13T08:30:20.948Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:30:20.955Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:30:37.999Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:30:38.000Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:30:42.096Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:30:42.100Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:30:42.294Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:30:42.299Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:30:43.850Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:30:43.856Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 20","timestamp":"2023-10-13T08:30:44.660Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:30:44.664Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 40","timestamp":"2023-10-13T08:30:45.398Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:30:45.403Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:31:15.419Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:31:15.420Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:31:18.007Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:31:18.011Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 20","timestamp":"2023-10-13T08:31:19.068Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:31:19.070Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:32:10.493Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:32:10.494Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:32:31.184Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:32:31.191Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 20","timestamp":"2023-10-13T08:32:32.286Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:32:32.290Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:32:49.618Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:32:49.619Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:32:59.303Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:32:59.306Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:33:01.442Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:33:01.447Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 20","timestamp":"2023-10-13T08:33:02.704Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:33:02.707Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:33:06.929Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:33:06.930Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:33:08.641Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:33:08.656Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 20","timestamp":"2023-10-13T08:33:09.286Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:33:09.290Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 40","timestamp":"2023-10-13T08:33:10.285Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:33:10.288Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 60","timestamp":"2023-10-13T08:33:13.351Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:33:13.356Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 80","timestamp":"2023-10-13T08:33:14.966Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:33:14.969Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 100","timestamp":"2023-10-13T08:33:16.119Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:33:16.124Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:33:19.487Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:33:19.489Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:33:20.753Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:33:20.757Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 20","timestamp":"2023-10-13T08:33:21.855Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:33:21.861Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 40","timestamp":"2023-10-13T08:34:20.193Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:34:20.198Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 60","timestamp":"2023-10-13T08:34:22.135Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:34:22.142Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:38:59.538Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:38:59.538Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:39:01.158Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:39:01.162Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 20","timestamp":"2023-10-13T08:39:01.845Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:39:01.857Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 40","timestamp":"2023-10-13T08:39:02.775Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:39:02.778Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 60","timestamp":"2023-10-13T08:39:03.823Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:39:03.827Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:39:44.250Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:39:44.251Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:40:41.940Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:40:41.951Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:40:47.073Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:40:47.075Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:40:58.175Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:40:58.176Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:41:00.841Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:41:00.843Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 20","timestamp":"2023-10-13T08:41:02.876Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:41:02.879Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:41:14.843Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:41:14.843Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:41:16.663Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:41:16.668Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 20","timestamp":"2023-10-13T08:41:18.210Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:41:18.212Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 40","timestamp":"2023-10-13T08:41:19.076Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:41:19.080Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 60","timestamp":"2023-10-13T08:41:20.226Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:41:20.229Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:41:30.251Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:41:30.253Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 0","timestamp":"2023-10-13T08:41:32.215Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:41:32.220Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 20","timestamp":"2023-10-13T08:41:33.265Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:41:33.269Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 40","timestamp":"2023-10-13T08:41:34.448Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:41:34.453Z"}
+{"level":"debug","message":"SQL string: select * from books ORDER BY timestamp DESC LIMIT 20 OFFSET 60","timestamp":"2023-10-13T08:41:40.331Z"}
+{"level":"debug","message":"Found rows : 20","timestamp":"2023-10-13T08:41:40.332Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-13T12:49:52.319Z"}
+{"__augmented":true,"code":"SQLITE_MISUSE","errno":21,"level":"error","timestamp":"2023-10-13T12:50:04.393Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-13T12:52:07.415Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T12:52:13.073Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T12:52:17.797Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-13T12:52:51.619Z"}
+{"__augmented":true,"code":"SQLITE_MISUSE","errno":21,"level":"error","timestamp":"2023-10-13T12:52:56.796Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T12:57:40.873Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T12:58:14.115Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T12:58:20.236Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T12:58:36.440Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T12:58:40.917Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T12:58:51.961Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-13T12:59:20.284Z"}
+{"__augmented":true,"code":"SQLITE_MISUSE","errno":21,"level":"error","timestamp":"2023-10-13T12:59:26.023Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T12:59:28.619Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:00:21.569Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:01:08.385Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:01:11.992Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:01:24.040Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:01:35.397Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:02:03.547Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:02:55.708Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:03:38.935Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:04:02.524Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:04:25.275Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:06:01.669Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:07:15.862Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:08:28.053Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:09:05.198Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:09:53.339Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:11:07.994Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:11:12.068Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:11:13.711Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:11:22.200Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:12:08.836Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:12:24.209Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:12:27.334Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:12:30.144Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:12:32.817Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:12:55.706Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:13:01.355Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:13:07.996Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:15:41.617Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:15:53.799Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:15:59.898Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:17:26.115Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:17:30.658Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:18:41.445Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:19:04.421Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:19:06.189Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:19:24.459Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:19:27.386Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:20:16.914Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:20:37.245Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:21:14.191Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:21:17.495Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:22:27.061Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:22:43.450Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:23:05.880Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:23:29.688Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:23:39.278Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:23:50.241Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:23:59.782Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:24:05.047Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:24:15.790Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:24:58.369Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:25:23.408Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:25:56.030Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:27:19.542Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:27:38.613Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:27:48.017Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:27:52.474Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:28:20.443Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:28:29.828Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:28:35.427Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:28:50.130Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:29:38.900Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:29:52.986Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:29:57.080Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:30:54.105Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:31:07.390Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-13T13:31:13.781Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:31:16.519Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:31:17.970Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:32:14.419Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:33:01.368Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:33:58.039Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-13T13:34:02.562Z"}
+{"__augmented":true,"code":"SQLITE_MISUSE","errno":21,"level":"error","timestamp":"2023-10-13T13:34:07.882Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:34:33.401Z"}
+{"__augmented":true,"code":"SQLITE_MISUSE","errno":21,"level":"error","timestamp":"2023-10-13T13:34:36.863Z"}
+{"level":"error","message":"SQLITE_MISUSE: Database is closed","timestamp":"2023-10-13T13:35:39.236Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-13T13:35:52.958Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T05:50:58.736Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:11:23.010Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:12:38.285Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:13:08.200Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:17:39.317Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:17:39.319Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:17:40.690Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:17:40.707Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:17:40.722Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:17:42.682Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:17:42.688Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:17:43.233Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:17:43.240Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:18:08.139Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:18:08.143Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:18:54.931Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:18:54.959Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:20:46.538Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:20:46.588Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:22:18.945Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:22:18.948Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:22:28.849Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:22:28.853Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:23:42.026Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:23:42.030Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:23:46.131Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:23:46.136Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:24:19.812Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:24:19.815Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:24:24.119Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:24:24.126Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:24:26.032Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:24:31.605Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:24:43.859Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:24:43.860Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:25:28.609Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:25:28.620Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:25:33.737Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:25:37.870Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:25:42.936Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:25:43.535Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:25:44.651Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:25:45.599Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:25:53.936Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:25:56.738Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:25:56.758Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:26:29.695Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:26:29.700Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:26:44.805Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:26:44.810Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:26:48.966Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:26:48.973Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:26:54.765Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:27:01.838Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:28:37.686Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:28:37.690Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:28:37.716Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:28:46.006Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:28:46.014Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:28:50.494Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:28:57.799Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:28:57.808Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:29:15.080Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:29:15.081Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:29:31.133Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:29:31.136Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:29:33.290Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:29:33.305Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:29:35.676Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:29:37.306Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:29:39.387Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:30:19.386Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:30:19.391Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:30:33.532Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:30:33.547Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:30:36.283Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:30:42.084Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:30:42.085Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:31:26.531Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:31:26.536Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:32:03.767Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:32:03.768Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:32:10.618Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:32:10.625Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:34:49.383Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:35:30.740Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:35:34.613Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:35:44.186Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:35:47.121Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:35:49.044Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:35:50.041Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:35:58.383Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:36:07.062Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:36:08.940Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:36:28.678Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:36:28.706Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:42:06.784Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:42:07.824Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:42:19.067Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:42:19.761Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:42:29.263Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:42:29.319Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:42:50.557Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:42:52.893Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:42:56.205Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:42:58.994Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:42:59.000Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:43:03.170Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:43:03.184Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:43:16.562Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:43:17.543Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:43:18.203Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:43:19.718Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:43:45.178Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:43:56.016Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:43:56.883Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:44:00.568Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:44:14.638Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:45:01.164Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:45:01.985Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:45:02.532Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:45:04.041Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:45:52.262Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:46:04.825Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:46:18.463Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:46:37.555Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:47:35.234Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:47:45.234Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:48:02.593Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:48:04.969Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:48:04.987Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:48:06.637Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:48:06.972Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:48:16.998Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:48:17.015Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:48:21.755Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:48:48.757Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:48:48.800Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:49:06.985Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:50:07.388Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:50:07.400Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:50:52.628Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:51:07.335Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:51:15.933Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:51:33.411Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:51:33.422Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:52:14.283Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:52:14.303Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:52:17.574Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:52:20.330Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:52:23.229Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:52:26.699Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:52:35.972Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:52:37.774Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:52:39.030Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:52:40.572Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:52:45.216Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:52:47.547Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:54:45.686Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:54:46.287Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:54:47.026Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:54:50.536Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:54:53.028Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:55:07.327Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:55:33.647Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:55:33.970Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:55:52.863Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:55:53.114Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:56:38.240Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:56:38.346Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:56:40.469Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:56:43.064Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:56:43.075Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:56:49.621Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:57:33.472Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:57:33.518Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:57:33.806Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:57:52.768Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:57:52.951Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:57:57.356Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:57:57.367Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:58:00.817Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:59:05.070Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:59:05.170Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:59:11.199Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:59:48.642Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:59:48.723Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T06:59:49.991Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:00:00.374Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:00:00.386Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:00:26.496Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:00:29.854Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:00:29.867Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:00:34.048Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:00:40.312Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:00:40.331Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:00:45.514Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:00:47.715Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:00:55.187Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:00:55.206Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:01:05.923Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:01:05.964Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:01:07.879Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:01:07.898Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:01:32.833Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:01:32.868Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:01:32.993Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:01:43.443Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:01:43.498Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:01:43.744Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:04:16.409Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:04:16.444Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:04:16.713Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:04:20.991Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:04:21.049Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:04:21.299Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:04:48.293Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:04:50.549Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:04:54.717Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:04:54.747Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:05:03.836Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:05:03.861Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:05:09.256Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:05:10.122Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:05:34.505Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:05:35.854Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:05:41.449Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:05:55.550Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:05:55.628Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:05:56.094Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:06:03.183Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:06:06.651Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:06:10.072Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:06:10.116Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:06:10.237Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:06:22.292Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:06:22.330Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:06:22.639Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:06:35.426Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:06:43.468Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:06:43.490Z"}
+{"level":"info","message":"Connected to db","timestamp":"2023-10-17T07:06:53.262Z"}

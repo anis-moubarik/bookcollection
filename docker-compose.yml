@@ -1,0 +1,22 @@
+version: "1.0"
+
+services:
+  frontend:
+    container_name: bookcollectionfront
+    image: bookcollection/frontend
+    build:
+      context: bookcollectionfront
+      dockerfile: Dockerfile
+    ports:
+      - published: 4200
+        target: 4200
+
+  backend:
+    container_name: bookcollectionback
+    image: bookcollection/backend
+    build:
+      context: bookcollectionback
+      dockerfile: Dockerfile
+    ports:
+      - published: 3000
+        target: 3000

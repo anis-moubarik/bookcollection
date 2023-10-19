@@ -45,7 +45,7 @@ export class BookListComponent implements OnInit{
             this.books = [...data, ...this.books];
           }
           //increase offset accordingly
-          this.offset = initial ? this.offset + 20 : this.offset + 21;
+          this.offset = initial ? this.offset + 20 : this.offset;
         },
         error: (err) => {
           this.error = err.error.messages;

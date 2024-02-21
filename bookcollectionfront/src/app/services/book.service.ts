@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
 import { Subject, Observable } from 'rxjs';
 import { HttpClient, HttpParams } from '@angular/common/http';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class BookService {
 
-  protected baseUrl = 'http://localhost:3000/books';
+  protected baseUrl = environment.apiUrl;
 
   private subject = new Subject<any>();
 

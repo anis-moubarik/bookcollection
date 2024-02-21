@@ -64,7 +64,16 @@
               "browserTarget": "bookcollectionfront:build:production"
             },
             "development": {
-              "browserTarget": "bookcollectionfront:build:development"
+              "browserTarget": "bookcollectionfront:build:development",
+            },
+            "aws": {
+              "browserTarget": "bookcollectionfront:build:aws",
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.aws.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "development"

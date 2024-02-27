@@ -1,7 +1,7 @@
 const sqlite3 = require('sqlite3').verbose();
 const logger = require('../logger');
 
-const SOURCE = "./db/books_23.db";
+const SOURCE = process.env.DB_URL || "./db/books_23.db";
 
 function createDbConnection() {
     let db = new sqlite3.Database(SOURCE, sqlite3.OPEN_READWRITE, (err) => {

@@ -25,6 +25,7 @@ backend:
     repository: 799052614850.dkr.ecr.eu-north-1.amazonaws.com/anis-test-bkb
     pullPolicy: Always
     tag: "latest"
+  command: 'if [ ! -f /db/books_23.db ]; then cp ./db/books_23.db /db/books_23.db; fi'
 
 imagePullSecrets:
   - name: anis-test-bkf
@@ -65,15 +66,15 @@ nginxservice:
   type: LoadBalancer
   port: 80
 
-angularvolumeclaim:
+dbvolumeclaim:
   metadata:
-    name: angular-volumeclaim
+    name: db-volumeclaim
   spec:
     accessModes:
       - ReadWriteOnce
     resources:
       requests:
-        storage: 2Gi
+        storage: 100Mi
 
 ingress:
   enabled: false
@@ -121,15 +122,20 @@ autoscaling:
 
 # Additional volumes on the output Deployment definition.
 volumes:
-  - name: angular-pvc
+  - name: db-pvc
     persistentVolumeClaim:
-      claimName: angular-volumeclaim
+      claimName: db-volumeclaim
+  - name: nginx-config
+    configMap:
+      name: nginxconfig
 
 # Additional volumeMounts on the output Deployment definition.
 volumeMounts:
   - name: nginx-config
     mountPath: /etc/nginx/nginx.conf
     subPath: nginx.conf
+  - name: db-pvc
+    mountPath: /db/
 
 nodeSelector: {}
 

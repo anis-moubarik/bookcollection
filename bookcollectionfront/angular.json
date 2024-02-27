@@ -53,6 +53,14 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "aws": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.aws.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "production"
@@ -65,15 +73,6 @@
             },
             "development": {
               "browserTarget": "bookcollectionfront:build:development",
-            },
-            "aws": {
-              "browserTarget": "bookcollectionfront:build:aws",
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.aws.ts"
-                }
-              ]
             }
           },
           "defaultConfiguration": "development"
@@ -119,6 +118,7 @@
   "cli": {
     "schematicCollections": [
       "@angular-eslint/schematics"
-    ]
+    ],
+    "analytics": false
   }
 }

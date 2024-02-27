@@ -17,6 +17,8 @@ frontend:
     repository: 799052614850.dkr.ecr.eu-north-1.amazonaws.com/anis-test-bkf
     pullPolicy: Always
     tag: "latest"
+  volumes:
+    name: angular-pvc
 
 backend:
   image:
@@ -55,17 +57,23 @@ securityContext: {}
   # runAsNonRoot: true
   # runAsUser: 1000
 
-frontendservice:
-  type: NodePort
-  port: 4200
-
 backendservice:
   type: NodePort
   port: 3000
 
 nginxservice:
-  type: ClusterIP
+  type: LoadBalancer
   port: 80
+
+angularvolumeclaim:
+  metadata:
+    name: angular-volumeclaim
+  spec:
+    accessModes:
+      - ReadWriteOnce
+    resources:
+      requests:
+        storage: 2Gi
 
 ingress:
   enabled: false
@@ -112,20 +120,16 @@ autoscaling:
   # targetMemoryUtilizationPercentage: 80
 
 # Additional volumes on the output Deployment definition.
-volumes: []
-# - name: foo
-#   secret:
-#     secretName: mysecret
-#     optional: false
+volumes:
+  - name: angular-pvc
+    persistentVolumeClaim:
+      claimName: angular-volumeclaim
 
 # Additional volumeMounts on the output Deployment definition.
 volumeMounts:
   - name: nginx-config
     mountPath: /etc/nginx/nginx.conf
     subPath: nginx.conf
-# - name: foo
-#   mountPath: "/etc/foo"
-#   readOnly: true
 
 nodeSelector: {}
 

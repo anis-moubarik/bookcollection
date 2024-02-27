@@ -6,7 +6,7 @@ services:
     image: bookcollection/frontend
     build:
       context: bookcollectionfront
-      dockerfile: Dockerfile
+      dockerfile: bookcollectionfront/docker/Dockerfile
     ports:
       - published: 4200
         target: 4200

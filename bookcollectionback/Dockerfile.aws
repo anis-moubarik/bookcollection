@@ -1,4 +1,4 @@
-FROM node:18 as build
+FROM --platform=linux/amd64 node:18 as build
 
 WORKDIR /usr/src/app
 
@@ -8,7 +8,7 @@ RUN npm install
 
 FROM build as run
 
-ENV DB_URL = /db/books_23.db
+ENV DB_URL=/db/books_23.db
 
 COPY . .
 

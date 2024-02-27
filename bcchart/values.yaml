@@ -25,7 +25,7 @@ backend:
     repository: 799052614850.dkr.ecr.eu-north-1.amazonaws.com/anis-test-bkb
     pullPolicy: Always
     tag: "latest"
-  command: 'if [ ! -f /db/books_23.db ]; then cp ./db/books_23.db /db/books_23.db; fi'
+  command: 'if [ ! -f /db/books_23.db ]; then cp /usr/src/app/db/books_23.db /db/books_23.db; fi; chmod 777 /db/books_23.db;'
 
 imagePullSecrets:
   - name: anis-test-bkf
@@ -74,7 +74,7 @@ dbvolumeclaim:
       - ReadWriteOnce
     resources:
       requests:
-        storage: 100Mi
+        storage: 2Gi
 
 ingress:
   enabled: false

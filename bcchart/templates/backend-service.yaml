@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "bcchart.fullname" . }}-backendservice
+  labels:
+    {{- include "bcchart.labels" . | nindent 4 }}
+    tier: backend
+spec:
+  type: {{ .Values.backendservice.type }}
+  ports:
+    - port: {{ .Values.backendservice.port }}
+      targetPort: 3000
+      protocol: TCP
+      name: backendport
+  selector:
+    {{- include "bcchart.selectorLabels" . | nindent 4 }}
+    tier: backend
+  type: {{ .Values.backendservice.type }}

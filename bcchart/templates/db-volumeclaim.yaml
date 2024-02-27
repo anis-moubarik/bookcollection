@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ .Values.dbvolumeclaim.metadata.name }}
+spec:
+  accessModes:
+    {{- toYaml .Values.dbvolumeclaim.spec.accessModes | nindent 4 }}
+  resources:
+    requests:
+      storage: {{ .Values.dbvolumeclaim.spec.resources.requests.storage }}
